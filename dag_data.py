@@ -8,6 +8,12 @@ from preprocess_utils import preprocess_data
 from dateutil.relativedelta import relativedelta
 from datetime import datetime
 
+'''
+This DAG is designed to run a data pipeline task daily.
+It fetches raw data from a specified source, processes it, and stores the processed data in a different location.
+It is scheduled to run daily at midnight.
+'''
+
 timelabel = datetime.today() - relativedelta(days=1)
 timelabel = timelabel.strftime('%Y_%m_%d')
 
