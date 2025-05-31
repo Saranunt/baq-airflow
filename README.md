@@ -1,4 +1,6 @@
 # Bangkok Air Quality MLOps Project - Airflow DAGs
+This Dag repo is also separated from the main repo, because of The deployment conflict in Airflow. Bro I really hate Keras.
+
 
 ## Project Overview
 This repository contains the Apache Airflow DAG configurations and related code for the Bangkok Air Quality MLOps project. The project focuses on processing, analyzing, and modeling air quality data for Bangkok using a robust MLOps pipeline deployed on AWS.
